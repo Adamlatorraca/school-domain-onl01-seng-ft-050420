@@ -22,7 +22,7 @@ class School
   end
 
   def sort
-  @roster.each do |grade, name|
+  @roster.each do |name, grade|
     @roster[name].alphabetically
   end
   end
